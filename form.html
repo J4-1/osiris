@@ -1,0 +1,1349 @@
+<!--
+|
+| Osiris Construction
+| Purchase Order Form
+| Live Link: https://email-up.date/osiris-purchase-order
+| Created: 1/11/2025
+| Updated: 2/3/2025
+|
+-->
+
+
+<h3 style="margin-bottom: 5px;">General Information</h3>
+
+<h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+  <!-- Project Code -->
+  <div style="margin-bottom: 20px;">
+    <p><b>Project Code:</b></p>
+    [text* project_code id:project_code]
+  </div>
+  
+  <!-- Project Address -->
+  <div style="margin-bottom: 20px;">
+    <p><b>Project Address:</b></p>
+    [text project_address id:project_address]
+  </div>
+
+  
+  <!-- Superintendent -->
+  <div style="margin-bottom: 20px;">
+    <p><b>Your Name:</b></p>
+    [text your_name id:your_name]
+  </div>
+
+  <!-- Superintendent -->
+  <div style="margin-bottom: 20px;">
+    <p><b>Superintendet:</b></p>
+    [text superintendent id:superintendent]
+  </div>
+  
+  <!-- Delivery Date -->
+  <div style="margin-bottom: 20px;">
+    <p><b>Delivery Date:</b></p>
+    [date delivery_date id:delivery_date]
+  </div>
+
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!-- METAL STUDS SECTION END --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('metal_studs')">
+        Metal Framing & Accesories
+        <span id="metal_studs-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Metal studs, tracks, structural connectors, clips, and fasteners for steel framing.</p>
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible Metal Studs Section -->
+    <div id="metal_studs-wrapper" style="display: none;">
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_2_1_2')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>2-1/2" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+<!-- ITEM TABLE START -->
+<div id="stud_2_1_2-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_2_1_2_8ft_15g min:0 id:stud_2_1_2_8ft_15g]</td>
+            <td>[number stud_2_1_2_8ft_16g min:0 id:stud_2_1_2_8ft_16g]</td>
+            <td>[number stud_2_1_2_8ft_18g min:0 id:stud_2_1_2_8ft_18g]</td>
+            <td>[number stud_2_1_2_8ft_20g min:0 id:stud_2_1_2_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_2_1_2_10ft_15g min:0 id:stud_2_1_2_10ft_15g]</td>
+            <td>[number stud_2_1_2_10ft_16g min:0 id:stud_2_1_2_10ft_16g]</td>
+            <td>[number stud_2_1_2_10ft_18g min:0 id:stud_2_1_2_10ft_18g]</td>
+            <td>[number stud_2_1_2_10ft_20g min:0 id:stud_2_1_2_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_2_1_2_12ft_15g min:0 id:stud_2_1_2_12ft_15g]</td>
+            <td>[number stud_2_1_2_12ft_16g min:0 id:stud_2_1_2_12ft_16g]</td>
+            <td>[number stud_2_1_2_12ft_18g min:0 id:stud_2_1_2_12ft_18g]</td>
+            <td>[number stud_2_1_2_12ft_20g min:0 id:stud_2_1_2_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_2_1_2_14ft_15g min:0 id:stud_2_1_2_14ft_15g]</td>
+            <td>[number stud_2_1_2_14ft_16g min:0 id:stud_2_1_2_14ft_16g]</td>
+            <td>[number stud_2_1_2_14ft_18g min:0 id:stud_2_1_2_14ft_18g]</td>
+            <td>[number stud_2_1_2_14ft_20g min:0 id:stud_2_1_2_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_2_1_2_16ft_15g min:0 id:stud_2_1_2_16ft_15g]</td>
+            <td>[number stud_2_1_2_16ft_16g min:0 id:stud_2_1_2_16ft_16g]</td>
+            <td>[number stud_2_1_2_16ft_18g min:0 id:stud_2_1_2_16ft_18g]</td>
+            <td>[number stud_2_1_2_16ft_20g min:0 id:stud_2_1_2_16ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+    
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_2_1_2')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>2-1/2" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="track_2_1_2-table" style="display: none;">
+        <table>
+            <thead>
+            <tr>
+                <th>Length (ft)</th>
+                <th>15G</th>
+                <th>16G</th>
+                <th>18G</th>
+                <th>20G</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10 ft</td>
+                <td>[number track_2_1_2_10ft_15g min:0 id:track_2_1_2_10ft_15g]</td>
+                <td>[number track_2_1_2_10ft_16g min:0 id:track_2_1_2_10ft_16g]</td>
+                <td>[number track_2_1_2_10ft_18g min:0 id:track_2_1_2_10ft_18g]</td>
+                <td>[number track_2_1_2_10ft_20g min:0 id:track_2_1_2_10ft_20g]</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    <!-- ITEM TABLE END -->
+    
+
+  <!-- ITEM TABLE END  -------------->
+
+  
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_3_5_8')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>3-5/8" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="stud_3_5_8-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_3_5_8_8ft_15g min:0 id:stud_3_5_8_8ft_15g]</td>
+            <td>[number stud_3_5_8_8ft_16g min:0 id:stud_3_5_8_8ft_16g]</td>
+            <td>[number stud_3_5_8_8ft_18g min:0 id:stud_3_5_8_8ft_18g]</td>
+            <td>[number stud_3_5_8_8ft_20g min:0 id:stud_3_5_8_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_3_5_8_10ft_15g min:0 id:stud_3_5_8_10ft_15g]</td>
+            <td>[number stud_3_5_8_10ft_16g min:0 id:stud_3_5_8_10ft_16g]</td>
+            <td>[number stud_3_5_8_10ft_18g min:0 id:stud_3_5_8_10ft_18g]</td>
+            <td>[number stud_3_5_8_10ft_20g min:0 id:stud_3_5_8_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_3_5_8_12ft_15g min:0 id:stud_3_5_8_12ft_15g]</td>
+            <td>[number stud_3_5_8_12ft_16g min:0 id:stud_3_5_8_12ft_16g]</td>
+            <td>[number stud_3_5_8_12ft_18g min:0 id:stud_3_5_8_12ft_18g]</td>
+            <td>[number stud_3_5_8_12ft_20g min:0 id:stud_3_5_8_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_3_5_8_14ft_15g min:0 id:stud_3_5_8_14ft_15g]</td>
+            <td>[number stud_3_5_8_14ft_16g min:0 id:stud_3_5_8_14ft_16g]</td>
+            <td>[number stud_3_5_8_14ft_18g min:0 id:stud_3_5_8_14ft_18g]</td>
+            <td>[number stud_3_5_8_14ft_20g min:0 id:stud_3_5_8_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_3_5_8_16ft_15g min:0 id:stud_3_5_8_16ft_15g]</td>
+            <td>[number stud_3_5_8_16ft_16g min:0 id:stud_3_5_8_16ft_16g]</td>
+            <td>[number stud_3_5_8_16ft_18g min:0 id:stud_3_5_8_16ft_18g]</td>
+            <td>[number stud_3_5_8_16ft_20g min:0 id:stud_3_5_8_16ft_20g]</td>
+        </tr>
+        <tr>
+            <td>20 ft</td>
+            <td>[number stud_3_5_8_20ft_15g min:0 id:stud_3_5_8_20ft_15g]</td>
+            <td>[number stud_3_5_8_20ft_16g min:0 id:stud_3_5_8_20ft_16g]</td>
+            <td>[number stud_3_5_8_20ft_18g min:0 id:stud_3_5_8_20ft_18g]</td>
+            <td>[number stud_3_5_8_20ft_20g min:0 id:stud_3_5_8_20ft_20g]</td>
+        </tr>
+        <tr>
+            <td>22 ft</td>
+            <td>[number stud_3_5_8_22ft_15g min:0 id:stud_3_5_8_22ft_15g]</td>
+            <td>[number stud_3_5_8_22ft_16g min:0 id:stud_3_5_8_22ft_16g]</td>
+            <td>[number stud_3_5_8_22ft_18g min:0 id:stud_3_5_8_22ft_18g]</td>
+            <td>[number stud_3_5_8_22ft_20g min:0 id:stud_3_5_8_22ft_20g]</td>
+        </tr>
+        <tr>
+            <td>24 ft</td>
+            <td>[number stud_3_5_8_24ft_15g min:0 id:stud_3_5_8_24ft_15g]</td>
+            <td>[number stud_3_5_8_24ft_16g min:0 id:stud_3_5_8_24ft_16g]</td>
+            <td>[number stud_3_5_8_24ft_18g min:0 id:stud_3_5_8_24ft_18g]</td>
+            <td>[number stud_3_5_8_24ft_20g min:0 id:stud_3_5_8_24ft_20g]</td>
+        </tr>
+        <tr>
+            <td>26 ft</td>
+            <td>[number stud_3_5_8_26ft_15g min:0 id:stud_3_5_8_26ft_15g]</td>
+            <td>[number stud_3_5_8_26ft_16g min:0 id:stud_3_5_8_26ft_16g]</td>
+            <td>[number stud_3_5_8_26ft_18g min:0 id:stud_3_5_8_26ft_18g]</td>
+            <td>[number stud_3_5_8_26ft_20g min:0 id:stud_3_5_8_26ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+    
+
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_3_5_8')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>3-5/8" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="track_3_5_8-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>10 ft</td>
+            <td>[number track_3_5_8_10ft_15g min:0 id:track_3_5_8_10ft_15g]</td>
+            <td>[number track_3_5_8_10ft_16g min:0 id:track_3_5_8_10ft_16g]</td>
+            <td>[number track_3_5_8_10ft_18g min:0 id:track_3_5_8_10ft_18g]</td>
+            <td>[number track_3_5_8_10ft_20g min:0 id:track_3_5_8_10ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+    
+
+  
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_6')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>6" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+   <!-- ITEM TABLE START -->
+    <div id="stud_6-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_6_8ft_15g min:0 id:stud_6_8ft_15g]</td>
+            <td>[number stud_6_8ft_16g min:0 id:stud_6_8ft_16g]</td>
+            <td>[number stud_6_8ft_18g min:0 id:stud_6_8ft_18g]</td>
+            <td>[number stud_6_8ft_20g min:0 id:stud_6_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_6_10ft_15g min:0 id:stud_6_10ft_15g]</td>
+            <td>[number stud_6_10ft_16g min:0 id:stud_6_10ft_16g]</td>
+            <td>[number stud_6_10ft_18g min:0 id:stud_6_10ft_18g]</td>
+            <td>[number stud_6_10ft_20g min:0 id:stud_6_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_6_12ft_15g min:0 id:stud_6_12ft_15g]</td>
+            <td>[number stud_6_12ft_16g min:0 id:stud_6_12ft_16g]</td>
+            <td>[number stud_6_12ft_18g min:0 id:stud_6_12ft_18g]</td>
+            <td>[number stud_6_12ft_20g min:0 id:stud_6_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_6_14ft_15g min:0 id:stud_6_14ft_15g]</td>
+            <td>[number stud_6_14ft_16g min:0 id:stud_6_14ft_16g]</td>
+            <td>[number stud_6_14ft_18g min:0 id:stud_6_14ft_18g]</td>
+            <td>[number stud_6_14ft_20g min:0 id:stud_6_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_6_16ft_15g min:0 id:stud_6_16ft_15g]</td>
+            <td>[number stud_6_16ft_16g min:0 id:stud_6_16ft_16g]</td>
+            <td>[number stud_6_16ft_18g min:0 id:stud_6_16ft_18g]</td>
+            <td>[number stud_6_16ft_20g min:0 id:stud_6_16ft_20g]</td>
+        </tr>
+        <tr>
+            <td>20 ft</td>
+            <td>[number stud_6_20ft_15g min:0 id:stud_6_20ft_15g]</td>
+            <td>[number stud_6_20ft_16g min:0 id:stud_6_20ft_16g]</td>
+            <td>[number stud_6_20ft_18g min:0 id:stud_6_20ft_18g]</td>
+            <td>[number stud_6_20ft_20g min:0 id:stud_6_20ft_20g]</td>
+        </tr>
+        <tr>
+            <td>22 ft</td>
+            <td>[number stud_6_22ft_15g min:0 id:stud_6_22ft_15g]</td>
+            <td>[number stud_6_22ft_16g min:0 id:stud_6_22ft_16g]</td>
+            <td>[number stud_6_22ft_18g min:0 id:stud_6_22ft_18g]</td>
+            <td>[number stud_6_22ft_20g min:0 id:stud_6_22ft_20g]</td>
+        </tr>
+        <tr>
+            <td>24 ft</td>
+            <td>[number stud_6_24ft_15g min:0 id:stud_6_24ft_15g]</td>
+            <td>[number stud_6_24ft_16g min:0 id:stud_6_24ft_16g]</td>
+            <td>[number stud_6_24ft_18g min:0 id:stud_6_24ft_18g]</td>
+            <td>[number stud_6_24ft_20g min:0 id:stud_6_24ft_20g]</td>
+        </tr>
+        <tr>
+            <td>26 ft</td>
+            <td>[number stud_6_26ft_15g min:0 id:stud_6_26ft_15g]</td>
+            <td>[number stud_6_26ft_16g min:0 id:stud_6_26ft_16g]</td>
+            <td>[number stud_6_26ft_18g min:0 id:stud_6_26ft_18g]</td>
+            <td>[number stud_6_26ft_20g min:0 id:stud_6_26ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+    
+
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_6')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>6" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+   <!-- ITEM TABLE START -->
+    <div id="track_6-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>10 ft</td>
+            <td>[number track_6_10ft_15g min:0 id:track_6_10ft_15g]</td>
+            <td>[number track_6_10ft_16g min:0 id:track_6_10ft_16g]</td>
+            <td>[number track_6_10ft_18g min:0 id:track_6_10ft_18g]</td>
+            <td>[number track_6_10ft_20g min:0 id:track_6_10ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+    
+
+
+
+  
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_8')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>8" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="stud_8-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_8ft_15g min:0 id:stud_8ft_15g]</td>
+            <td>[number stud_8ft_16g min:0 id:stud_8ft_16g]</td>
+            <td>[number stud_8ft_18g min:0 id:stud_8ft_18g]</td>
+            <td>[number stud_8ft_20g min:0 id:stud_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_12ft_15g min:0 id:stud_12ft_15g]</td>
+            <td>[number stud_12ft_16g min:0 id:stud_12ft_16g]</td>
+            <td>[number stud_12ft_18g min:0 id:stud_12ft_18g]</td>
+            <td>[number stud_12ft_20g min:0 id:stud_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_14ft_15g min:0 id:stud_14ft_15g]</td>
+            <td>[number stud_14ft_16g min:0 id:stud_14ft_16g]</td>
+            <td>[number stud_14ft_18g min:0 id:stud_14ft_18g]</td>
+            <td>[number stud_14ft_20g min:0 id:stud_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_16ft_15g min:0 id:stud_16ft_15g]</td>
+            <td>[number stud_16ft_16g min:0 id:stud_16ft_16g]</td>
+            <td>[number stud_16ft_18g min:0 id:stud_16ft_18g]</td>
+            <td>[number stud_16ft_20g min:0 id:stud_16ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_8')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>8" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="track_8-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+
+  
+  
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_10')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>10" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="stud_10-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_8ft_15g min:0 id:stud_8ft_15g]</td>
+            <td>[number stud_8ft_16g min:0 id:stud_8ft_16g]</td>
+            <td>[number stud_8ft_18g min:0 id:stud_8ft_18g]</td>
+            <td>[number stud_8ft_20g min:0 id:stud_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_12ft_15g min:0 id:stud_12ft_15g]</td>
+            <td>[number stud_12ft_16g min:0 id:stud_12ft_16g]</td>
+            <td>[number stud_12ft_18g min:0 id:stud_12ft_18g]</td>
+            <td>[number stud_12ft_20g min:0 id:stud_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_14ft_15g min:0 id:stud_14ft_15g]</td>
+            <td>[number stud_14ft_16g min:0 id:stud_14ft_16g]</td>
+            <td>[number stud_14ft_18g min:0 id:stud_14ft_18g]</td>
+            <td>[number stud_14ft_20g min:0 id:stud_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_16ft_15g min:0 id:stud_16ft_15g]</td>
+            <td>[number stud_16ft_16g min:0 id:stud_16ft_16g]</td>
+            <td>[number stud_16ft_18g min:0 id:stud_16ft_18g]</td>
+            <td>[number stud_16ft_20g min:0 id:stud_16ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_10')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>10" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="track_10-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+
+
+  
+  
+
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('stud_12')">
+        <!-- Icon on the left -->
+        <img src="https://imgs.search.brave.com/X87AwdJC7EYPA34JoYLH-EfrDaAux6koYTBLxaQoFKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2dtc2NvbS9tYXN0/ZXIvbWVkaWEtY29t/bW9uL3Byb2R1Y3Qv/TUQtU3RlZWxfU3R1/ZC5qcGc" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>12" | Metal Studs</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="stud_12-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8 ft</td>
+            <td>[number stud_8ft_15g min:0 id:stud_8ft_15g]</td>
+            <td>[number stud_8ft_16g min:0 id:stud_8ft_16g]</td>
+            <td>[number stud_8ft_18g min:0 id:stud_8ft_18g]</td>
+            <td>[number stud_8ft_20g min:0 id:stud_8ft_20g]</td>
+        </tr>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        <tr>
+            <td>12 ft</td>
+            <td>[number stud_12ft_15g min:0 id:stud_12ft_15g]</td>
+            <td>[number stud_12ft_16g min:0 id:stud_12ft_16g]</td>
+            <td>[number stud_12ft_18g min:0 id:stud_12ft_18g]</td>
+            <td>[number stud_12ft_20g min:0 id:stud_12ft_20g]</td>
+        </tr>
+        <tr>
+            <td>14 ft</td>
+            <td>[number stud_14ft_15g min:0 id:stud_14ft_15g]</td>
+            <td>[number stud_14ft_16g min:0 id:stud_14ft_16g]</td>
+            <td>[number stud_14ft_18g min:0 id:stud_14ft_18g]</td>
+            <td>[number stud_14ft_20g min:0 id:stud_14ft_20g]</td>
+        </tr>
+        <tr>
+            <td>16 ft</td>
+            <td>[number stud_16ft_15g min:0 id:stud_16ft_15g]</td>
+            <td>[number stud_16ft_16g min:0 id:stud_16ft_16g]</td>
+            <td>[number stud_16ft_18g min:0 id:stud_16ft_18g]</td>
+            <td>[number stud_16ft_20g min:0 id:stud_16ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+
+
+  
+  <!-- METAL STUDS 2 1/2" -- START -------------------------------------->
+
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('track_12')">
+        <!-- Icon on the left -->
+        <img src="https://images.thdstatic.com/productImages/05301c98-7d6e-49e4-820f-24e79b25a206/svn/super-stud-building-products-drywall-steel-studs-framing-212t2010-64_1000.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>12" | Metal Track</b></p>
+
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+
+
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="track_12-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Length (ft)</th>
+            <th>15G</th>
+            <th>16G</th>
+            <th>18G</th>
+            <th>20G</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>10 ft</td>
+            <td>[number stud_10ft_15g min:0 id:stud_10ft_15g]</td>
+            <td>[number stud_10ft_16g min:0 id:stud_10ft_16g]</td>
+            <td>[number stud_10ft_18g min:0 id:stud_10ft_18g]</td>
+            <td>[number stud_10ft_20g min:0 id:stud_10ft_20g]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+  <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!-- METAL STUDS SECTION END --------------------------------------->
+
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('lumber')">
+        Lumber & Framing
+        <span id="lumber-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Dimensional lumber, plywood, sheathing, and framing materials like 2x4s and studs.</p>
+
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="lumber-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+    <!-- LUMBER | REGULAR -- START -------------------------------------->
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('lumber_regular')">
+        <!-- Icon on the left -->
+        <img src="https://mobileimages.lowes.com/productimages/ca958e4b-3419-460b-93a1-0614c6540722/08507928.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>Regular Lumber</b></p>
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="lumber_regular-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Size</th>
+            <th>8 ft</th>
+            <th>10 ft</th>
+            <th>12 ft</th>
+            <th>14 ft</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2x4</td>
+            <td>[number lumber_reg_2x4_8ft min:0 id:lumber_reg_2x4_8ft]</td>
+            <td>[number lumber_reg_2x4_10ft min:0 id:lumber_reg_2x4_10ft]</td>
+            <td>[number lumber_reg_2x4_12ft min:0 id:lumber_reg_2x4_12ft]</td>
+            <td>[number lumber_reg_2x4_14ft min:0 id:lumber_reg_2x4_14ft]</td>
+        </tr>
+        <tr>
+            <td>2x6</td>
+            <td>[number lumber_reg_2x6_8ft min:0 id:lumber_reg_2x6_8ft]</td>
+            <td>[number lumber_reg_2x6_10ft min:0 id:lumber_reg_2x6_10ft]</td>
+            <td>[number lumber_reg_2x6_12ft min:0 id:lumber_reg_2x6_12ft]</td>
+            <td>[number lumber_reg_2x6_14ft min:0 id:lumber_reg_2x6_14ft]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+
+    <!-- LUMBER | REGULAR -- END -------------------------------------->
+
+    <!-- LUMBER | FIRE RETARDANT -- START -------------------------------------->
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('lumber_fire_retardant')">
+        <!-- Icon on the left -->
+        <img src="https://mobileimages.lowes.com/productimages/ca958e4b-3419-460b-93a1-0614c6540722/08507928.jpg" 
+            alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>Fire Retardant Lumber</b></p>
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="lumber_fire_retardant-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Size</th>
+            <th>8 ft</th>
+            <th>10 ft</th>
+            <th>12 ft</th>
+            <th>14 ft</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2x4</td>
+            <td>[number lumber_fire_2x4_8ft min:0 id:lumber_fire_2x4_8ft]</td>
+            <td>[number lumber_fire_2x4_10ft min:0 id:lumber_fire_2x4_10ft]</td>
+            <td>[number lumber_fire_2x4_12ft min:0 id:lumber_fire_2x4_12ft]</td>
+            <td>[number lumber_fire_2x4_14ft min:0 id:lumber_fire_2x4_14ft]</td>
+        </tr>
+        <tr>
+            <td>2x6</td>
+            <td>[number lumber_fire_2x6_8ft min:0 id:lumber_fire_2x6_8ft]</td>
+            <td>[number lumber_fire_2x6_10ft min:0 id:lumber_fire_2x6_10ft]</td>
+            <td>[number lumber_fire_2x6_12ft min:0 id:lumber_fire_2x6_12ft]</td>
+            <td>[number lumber_fire_2x6_14ft min:0 id:lumber_fire_2x6_14ft]</td>
+        </tr>
+        <tr>
+            <td>2x12</td>
+            <td>[number lumber_fire_2x12_8ft min:0 id:lumber_fire_2x12_8ft]</td>
+            <td>[number lumber_fire_2x12_10ft min:0 id:lumber_fire_2x12_10ft]</td>
+            <td>[number lumber_fire_2x12_12ft min:0 id:lumber_fire_2x12_12ft]</td>
+            <td>[number lumber_fire_2x12_14ft min:0 id:lumber_fire_2x12_14ft]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+
+    <!-- LUMBER | FIRE RETARDANT -- END -------------------------------------->
+
+    <!-- PLYWOOD -- START -------------------------------------->
+
+    <!-- ITEM SECTION INFO START -->
+    <div style="display: flex; align-items: center; cursor: pointer;" onclick="toggleTable('plywood')">
+        <!-- Icon on the left -->
+        <img src="https://www.laver.co.uk/media/catalog/product/cache/7102775d6e6561322d1e835acfa6712d/0/3/03208_dacc.jpg" 
+            alt="Plywood" style="width: 40px; height: 40px; margin-right: 10px;">
+        
+        <!-- Label on the right -->
+        <p style="margin: 0; font-size: 16px;"><b>Plywood</b></p>
+
+        <!-- Plus/Minus Icon -->
+        <span id="toggle-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </div>
+
+    <p style="margin-bottom: 20px;">Select desired specifications and amounts</p>
+    <!-- ITEM SECTION INFO END -->
+
+    <!-- ITEM TABLE START -->
+    <div id="plywood-table" style="display: none;">
+    <table>
+        <thead>
+        <tr>
+            <th>Type</th>
+            <th>3/8''</th>
+            <th>1/2''</th>
+            <th>5/8''</th>
+            <th>3/4''</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Reg. Plywood 4x8</td>
+            <td>[number plywood_reg_3_8 min:0 id:plywood_reg_3_8]</td>
+            <td>[number plywood_reg_1_2 min:0 id:plywood_reg_1_2]</td>
+            <td>[number plywood_reg_5_8 min:0 id:plywood_reg_5_8]</td>
+            <td>[number plywood_reg_3_4 min:0 id:plywood_reg_3_4]</td>
+        </tr>
+        <tr>
+            <td>Ext. Grade Plywood 4x8</td>
+            <td>[number plywood_ext_3_8 min:0 id:plywood_ext_3_8]</td>
+            <td>[number plywood_ext_1_2 min:0 id:plywood_ext_1_2]</td>
+            <td>[number plywood_ext_5_8 min:0 id:plywood_ext_5_8]</td>
+            <td>[number plywood_ext_3_4 min:0 id:plywood_ext_3_4]</td>
+        </tr>
+        <tr>
+            <td>Fire Retardant Plywood 4x8</td>
+            <td>[number plywood_fire_3_8 min:0 id:plywood_fire_3_8]</td>
+            <td>[number plywood_fire_1_2 min:0 id:plywood_fire_1_2]</td>
+            <td>[number plywood_fire_5_8 min:0 id:plywood_fire_5_8]</td>
+            <td>[number plywood_fire_3_4 min:0 id:plywood_fire_3_4]</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- ITEM TABLE END -->
+
+    <!-- PLYWOOD -- END -------------------------------------->
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+  
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('drywall-panels')">
+        Drywall & Wall Panels
+        <span id="drywall-panels-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Drywall, gypsum boards, cement boards, and backer boards for wall and ceiling applications.</p>
+
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="drywall-panels-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+  
+  
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('drywall-accessories')">
+        Drywall Accessories
+        <span id="drywall-accessories-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Corner beads, edge trims, joint reinforcement, finishing tools, and other drywall-related components.</p>
+
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="drywall-accessories-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+  
+  
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('adhesives')">
+        Adhesives & Sealants
+        <span id="adhesives-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Construction adhesives, caulking, sealants, and bonding agents for various applications.</p>
+
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="adhesives-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+  
+  
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('structural')">
+        Supports & Accessories
+        <span id="structural-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+
+    <!-- Section Description -->
+    <p>Strut channels, beam clamps, threaded rods, and other structural support hardware.</p>
+
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="structural-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+  
+  
+  <!-- **************************************************************************************  -->  
+  
+  <!-- /////////////////////////////////////////// --------------------------------------->
+  <!--  SECTION START --------------------------------------->
+
+
+    <!-- Collapsible Header -->
+    <h3 style="margin-bottom: 5px; margin-top: 40px; cursor: pointer; display: flex; align-items: center;" 
+        onclick="toggleSection('other')">
+        Other
+        <span id="other-icon" style="margin-left: 10px; font-size: 20px;">+</span>
+    </h3>
+    <!-- Section Description -->
+    <p>Miscellaneous items that do not fit into the main categories.</p>
+    
+    <h5 style="margin-bottom: 20px; ">_______________</h5>
+
+
+    <!-- Collapsible  Section -->
+    <div id="other-wrapper" style="display: none;">
+
+  <!-- -- START -------------------------------------->
+
+
+  
+    <!-- ITEM TABLE END  -------------->
+
+    </div>
+
+    <!-- /////////////////////////////////////////// --------------------------------------->
+    <!--  SECTION END --------------------------------------->
+
+    
+  <!-- **************************************************************************************  -->  
+
+
+  <h5 style="margin-bottom: 15px; margin-bottom: 15px; "> &nbsp;</h5>
+
+
+  <!-- Submit Button -->
+  [submit "Submit Order"]
+
+
+  <h5 style="margin-bottom: 15px; margin-bottom: 15px; ">______________________________________________</h5>
+
+   <!-- END ------------------------------------------------------------------------------->
+
+   
+   <script>
+    // JavaScript function to toggle table visibility per section
+    function toggleTable(section) {
+        var table = document.getElementById(section + '-table');
+        var icon = document.getElementById(section + '-icon');
+
+        if (table.style.display === 'none') {
+            table.style.display = 'block'; // Show the table
+            icon.textContent = '-';        // Change icon to minus
+        } else {
+            table.style.display = 'none';  // Hide the table
+            icon.textContent = '+';        // Change icon to plus
+        }
+    }
+
+    function toggleSection(section) {
+    var wrapper = document.getElementById(section + '-wrapper');
+    var icon = document.getElementById(section + '-icon');
+
+    if (wrapper.style.display === 'none') {
+        wrapper.style.display = 'block'; // Show the section
+        icon.textContent = '-';          // Change icon to minus
+    } else {
+        wrapper.style.display = 'none';  // Hide the section
+        icon.textContent = '+';          // Change icon to plus
+    }
+    }
+
+    </script>
+
+
