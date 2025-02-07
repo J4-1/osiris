@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Order Notification</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .email-header {
+            background-color: #d6471c;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .email-header h1 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 24px;
+        }
+        .email-body {
+            padding: 30px;
+        }
+        .email-body h2 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .email-body p {
+            color: #555555;
+            line-height: 1.6;
+        }
+        .order-details {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #d6471c;
+            color: #ffffff;
+        }
+        .email-footer {
+            background-color: #eeeeee;
+            padding: 15px;
+            text-align: center;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .email-footer p {
+            font-size: 12px;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header with company name -->
+        <div class="email-header">
+            <h1>OSIRIS CONSTRUCTION</h1>
+        </div>
+
+        <!-- Email Body -->
+        <div class="email-body">
+            <h2>New Order Placed</h2>
+            <p>Hello,</p>
+            <p>A new order has been placed. Below are the order details:</p>
+
+            <div class="order-details">
+                <p><strong>Project Code:</strong> [project_code]</p>
+                <p><strong>Project Address:</strong> [project_address]</p>
+                <p><strong>Your Name:</strong> [your_name]</p>
+                <p><strong>Superintendent:</strong> [superintendent]</p>
+                <p><strong>Delivery Date:</strong> [delivery_date]</p>
+            </div>
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Metal Framing & Accessories</h2>
+
+            <!-- SUB-SECTION START ------------- -->
+            <h3>2-1/2" Metal Studs</h3>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Length (ft)</th>
+                        <th>15G</th>
+                        <th>16G</th>
+                        <th>18G</th>
+                        <th>20G</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8 ft</td>
+                        <td>[stud_2_1_2_8ft_15g]</td>
+                        <td>[stud_2_1_2_8ft_16g]</td>
+                        <td>[stud_2_1_2_8ft_18g]</td>
+                        <td>[stud_2_1_2_8ft_20g]</td>
+                    </tr>
+                    <tr>
+                        <td>10 ft</td>
+                        <td>[stud_2_1_2_10ft_15g]</td>
+                        <td>[stud_2_1_2_10ft_16g]</td>
+                        <td>[stud_2_1_2_10ft_18g]</td>
+                        <td>[stud_2_1_2_10ft_20g]</td>
+                    </tr>
+                    <tr>
+                        <td>12 ft</td>
+                        <td>[stud_2_1_2_12ft_15g]</td>
+                        <td>[stud_2_1_2_12ft_16g]</td>
+                        <td>[stud_2_1_2_12ft_18g]</td>
+                        <td>[stud_2_1_2_12ft_20g]</td>
+                    </tr>
+                    <tr>
+                        <td>14 ft</td>
+                        <td>[stud_2_1_2_14ft_15g]</td>
+                        <td>[stud_2_1_2_14ft_16g]</td>
+                        <td>[stud_2_1_2_14ft_18g]</td>
+                        <td>[stud_2_1_2_14ft_20g]</td>
+                    </tr>
+                    <tr>
+                        <td>16 ft</td>
+                        <td>[stud_2_1_2_16ft_15g]</td>
+                        <td>[stud_2_1_2_16ft_16g]</td>
+                        <td>[stud_2_1_2_16ft_18g]</td>
+                        <td>[stud_2_1_2_16ft_20g]</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- SUB-SECTION START ------------- -->
+            <h3>2-1/2" Metal Tracks</h3>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Length (ft)</th>
+                        <th>15G</th>
+                        <th>16G</th>
+                        <th>18G</th>
+                        <th>20G</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10 ft</td>
+                        <td>[track_2_1_2_10ft_15g]</td>
+                        <td>[track_2_1_2_10ft_16g]</td>
+                        <td>[track_2_1_2_10ft_18g]</td>
+                        <td>[track_2_1_2_10ft_20g]</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+            <!-- SUB-SETION START  ------------->
+
+
+
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Lumber & Framing</h2>
+
+            
+            <!-- SUB-SETION START  ------------->
+            <h3>Regular Lumber</h3>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>8 ft</th>
+                        <th>10 ft</th>
+                        <th>12 ft</th>
+                        <th>14 ft</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2x4</td>
+                        <td>[lumber_reg_2x4_8ft]</td>
+                        <td>[lumber_reg_2x4_10ft]</td>
+                        <td>[lumber_reg_2x4_12ft]</td>
+                        <td>[lumber_reg_2x4_14ft]</td>
+                    </tr>
+                    <tr>
+                        <td>2x6</td>
+                        <td>[lumber_reg_2x6_8ft]</td>
+                        <td>[lumber_reg_2x6_10ft]</td>
+                        <td>[lumber_reg_2x6_12ft]</td>
+                        <td>[lumber_reg_2x6_14ft]</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+            <!-- SUB-SETION START  ------------->
+
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Drywall & Wall Panels</h2>
+
+
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[drywall_type]</td>
+                        <td>[drywall_size]</td>
+                        <td>[drywall_quantity]</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Drywall Accessories</h2>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[drywall_accessory_1]</td>
+                        <td>[drywall_accessory_quantity_1]</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Adhesives & Sealants</h2>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[adhesive_item]</td>
+                        <td>[adhesive_quantity]</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Supports & Accessories</h2>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[support_item]</td>
+                        <td>[support_quantity]</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- SECTION START  --------------------------------------->
+            <h2>Other</h2>
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[other_item]</td>
+                        <td>[other_quantity]</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+
+
+        </div>
+
+        <!-- Footer -->
+        <div class="email-footer">
+            <p>OSIRIS CONSTRUCTION © 2025</p>
+            <p>www.osirisconstruction.com</p>
+        </div>
+    </div>
+</body>
+</html>
